@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "singularName": "link",
+    "pluralName": "links",
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "icone": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icone.icone"
+    }
+  }
+}

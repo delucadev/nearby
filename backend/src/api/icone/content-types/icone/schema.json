@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "icones",
+  "info": {
+    "singularName": "icone",
+    "pluralName": "icones",
+    "displayName": "Icone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagem": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    }
+  }
+}

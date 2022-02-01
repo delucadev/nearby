@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contratantes",
+  "info": {
+    "singularName": "contratante",
+    "pluralName": "contratantes",
+    "displayName": "Contratante",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "nome": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "segmento": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "maxLength": 150
+    },
+    "senha": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
